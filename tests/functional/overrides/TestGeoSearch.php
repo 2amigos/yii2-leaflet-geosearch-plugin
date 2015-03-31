@@ -1,14 +1,4 @@
 <?php
-/**
- *
- * TestGeoSearch.php
- *
- * Date: 30/03/15
- * Time: 17:01
- * @author Antonio Ramirez <amigo.cobos@gmail.com>
- * @link http://www.ramirezcobos.com/
- * @link http://www.2amigos.us/
- */
 
 namespace tests\overrides;
 
