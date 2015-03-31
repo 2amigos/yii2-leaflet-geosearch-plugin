@@ -2,7 +2,6 @@
 
 namespace tests;
 
-use tests\overrides\TestDateRangePickerAsset;
 use tests\overrides\TestGeoSearchAsset;
 use yii\web\AssetBundle;
 
