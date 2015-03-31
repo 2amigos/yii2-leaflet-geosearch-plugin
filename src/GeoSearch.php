@@ -51,6 +51,7 @@ class GeoSearch extends Plugin
      * Registers plugin asset bundle
      * @param \yii\web\View $view
      * @return mixed
+     * @codeCoverageIgnore
      */
     public function registerAssetBundle($view)
     {
@@ -114,4 +115,4 @@ class GeoSearch extends Plugin
         return new JsExpression($js);
     }
 
-} 
+}
