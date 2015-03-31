@@ -10,7 +10,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Yii2 DatePicker Test Suite">
+        <testsuite name="Yii2 GeoSearch Plugin Test Suite">
             <directory>./tests/functional</directory>
         </testsuite>
     </testsuites>
