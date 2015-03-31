@@ -76,9 +76,6 @@ echo $leafLet->widget();
 
 ```
 
-Further Information
--------------------
-Please, check the [Bootstrap DatePicker site](http://bootstrap-datepicker.readthedocs.org/en/release/) documentation for further information about its configuration options. 
 
 Contributing
 ------------
