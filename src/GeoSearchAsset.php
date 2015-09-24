@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  */
 class GeoSearchAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/2amigos/yii2-leaflet-geosearch-plugin/assets';
+    public $sourcePath = '@vendor/2amigos/yii2-leaflet-geosearch-plugin/src/assets';
 
     public $css = [
         'css/l.geosearch.css'
