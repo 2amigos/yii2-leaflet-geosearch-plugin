@@ -41,7 +41,14 @@ use dosamigos\leaflet\plugins\geosearch\GeoSearch;
 $center = new LatLng(['lat' => 39.67442740076734, 'lng' => 2.9347229003906246]);
 
 $geoSearchPlugin = new GeoSearch([
-    'service' => GeoSearch::SERVICE_OPENSTREETMAP
+    'service' => GeoSearch::SERVICE_OPENSTREETMAP,
+    // uncomment following block to define custom labels
+    /*
+    'clientOptions' => [
+        'searchLabel' => 'enter address here',
+        'notFoundMessage' => 'no address found',
+    ],
+    */
 ]);
 
 $tileLayer = new TileLayer([
