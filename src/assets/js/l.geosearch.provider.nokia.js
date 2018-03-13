@@ -19,7 +19,7 @@ L.GeoSearch.Provider.Nokia = L.Class.extend({
             jsoncallback: '?'
         }, this.options);
 
-        return 'http://geo.nlp.nokia.com/search/6.2/geocode.json'
+        return '//geo.nlp.nokia.com/search/6.2/geocode.json'
             + L.Util.getParamString(parameters);
     },
 
